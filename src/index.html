@@ -20,6 +20,20 @@
   @@include('parts/header.html')
   
   @@include('parts/main.html')
+
+  <!-- @@include('parts/footer.html') -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+  integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+
+    <script>
+      $(function () {
+        $('#filter').on('click', function() {
+          $('.filter-nav').toggleClass('active');
+        })
+      });
+    </script>
   
 </body>
 

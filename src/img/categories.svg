@@ -1,0 +1,13 @@
+<svg id="categories" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #252525;
+      }
+    </style>
+  </defs>
+  <rect id="_4" data-name="4" class="cls-1" x="10" y="10" width="6" height="6"/>
+  <rect id="_3" data-name="3" class="cls-1" x="10" width="6" height="6"/>
+  <rect id="_2" data-name="2" class="cls-1" y="10" width="6" height="6"/>
+  <rect id="_1" data-name="1" class="cls-1" width="6" height="6"/>
+</svg>

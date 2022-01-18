@@ -26,7 +26,7 @@ function html() {
 }
 
 function scss() {
-  return src('src/styles/**.scss')
+  return src('src/styles/**.scss', 'src/styles/**.css')
     .pipe(sass())
     .pipe(autoprefixer('last 2 versions'))
     .pipe(csso())

@@ -1,35 +1,31 @@
 main {
     .filter {
         text-align: center;
-        padding: 3rem;
-        span {
-            position: relative;
-            display: inline-block;
-            vertical-align: middle;
-            width: 16px;
-            height: 16px;
-            color: black;
-
-            &::before {
-                content: "";
-                position: absolute;
-                top: 0;
-                left: auto;
-                width: 6px;
-                height: 0;
-                border-bottom: 6px solid;
-                box-shadow: 0 10px;              
-            } 
-            &::after {
-                content: "";
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 6px;
-                height: 0;
-                border-bottom: 6px solid;
-                box-shadow: 0 10px;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+    .filter-nav {
+        height: 0;
+        transition: opacity .4s ease-in;
+        opacity: 0;
+        ul {
+            width: 50%;
+            margin: 2rem auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            li {
+                a {
+                    color: gray;
+                    font-family: Work sans;
+                    text-transform: uppercase;
+                }
             }
+        }
+        &.active {
+            transition: opacity .4s ease-in;
+            opacity: 1;
+            height: auto;
         }
     }
     .row {
@@ -49,4 +45,15 @@ main {
         }
     }
 }
+
+.loader {
+    text-align: center;
+    padding: 3rem;
+    p {
+        text-transform: uppercase;
+        font-family: Work sans;
+    }
+}
+
+
   
